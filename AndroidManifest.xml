@@ -6,10 +6,10 @@
 
     <application
         android:icon="@drawable/icon"
-        android:label="@string/app_name" >
+        android:label="Switch" >
         <activity
-            android:label="@string/app_name"
-            android:name="com.demo.CustomDialogActivity" >
+            android:label="Switch"
+            android:name="com.demo.MainActivity" >
             <intent-filter >
                 <action android:name="android.intent.action.MAIN" />
 

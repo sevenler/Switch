@@ -2,11 +2,12 @@
 <resources>
 
     <declare-styleable name="Switch_Style">
+
         <!-- Default style for the Switch widget. -->
         <attr name="switchStyle" format="reference" />
     </declare-styleable>
-
     <declare-styleable name="Switch">
+
         <!-- Drawable to use as the "thumb" that switches back and forth. -->
         <attr name="thumb" format="reference" />
         <!-- Drawable to use as the "track" that the switch thumb slides within. -->
@@ -24,8 +25,8 @@
         <!-- Minimum space between the switch and caption text -->
         <attr name="switchPadding" format="dimension" />
     </declare-styleable>
-
     <declare-styleable name="TextAppearance">
+
         <!-- Text color. -->
         <attr name="textColor" format="reference|color" />
         <!-- Size of the text. Recommended dimension type for text is "sp" for scaled-pixels (example: 15sp). -->
@@ -56,8 +57,10 @@
     <style name="Switch">
         <item name="track">@drawable/switch_track_holo_light</item>
         <item name="thumb">@drawable/switch_inner_holo_light</item>
-        <!-- <item name="track">@drawable/switch_bg_default_mz</item>
-        <item name="thumb">@drawable/switch_thumb_activated_mz</item> -->
+        <!--
+        <item name="track">@drawable/switch_bg_default_mz</item>
+        <item name="thumb">@drawable/switch_thumb_activated_mz</item>
+        -->
         <item name="switchTextAppearance">@android:style/TextAppearance.Small</item>
         <item name="textOn">@string/switch_on</item>
         <item name="textOff">@string/switch_off</item>
@@ -68,4 +71,5 @@
 
     <string name="switch_on">On</string>
     <string name="switch_off">Off</string>
+
 </resources>
